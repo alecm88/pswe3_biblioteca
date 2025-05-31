@@ -25,6 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <p style="color: red;"><?= $error ?></p>
     <?php endif; ?>
     
+    <h1>Bienvenido a la Biblioteca Online</h1>
     <form method="POST">
         <input type="text" name="username" placeholder="Usuario" required>
         <input type="password" name="password" placeholder="Contraseña" required>
